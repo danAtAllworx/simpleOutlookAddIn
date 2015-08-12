@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabAppointment">
+        <group id="MyAddInGroup"
+               label="My Add-In">
+          <button id="TheLabel" label="Hover over me" screentip="Screentip here" supertip="Supertip here" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
